@@ -10,3 +10,22 @@ Docker is used to keep the provisioning of environments rapid, most of the work 
 To get started you will need to prepare your system to work with docker, see [Getting started with docker](https://docs.docker.com/mac/).
 
 The docker image is located in a private repo [here](https://hub.docker.com/r/specimin/boilerplate/).
+
+Once you are setup you can run the following steps to get the docker container running.
+
+Build the image
+
+    docker build -t specimin/boilerplate .
+
+
+Bind the necessary ports
+
+    docker run -d -p 80:80 specimin/boilerplate
+
+Get the docker IP
+
+    docker-machine ip default
+
+Now test the connection to the machine
+
+    curl http://<dockerIP>:<port>
