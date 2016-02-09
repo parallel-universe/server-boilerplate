@@ -28,6 +28,10 @@ Now test the connection to the machine
 
     curl http://<dockerIP>:<port>
 
+Get a shell into the docker container
+
+    sudo docker exec -i -t <containerId>
+
 ![docker](https://docs.docker.com/dist/assets/images/logo.png)
 ![composer](https://getcomposer.org/img/logo-composer-transparent5.png)
 ![silex](https://bolt.cm/thumbs/606x400r/2014-12/featureimg_silexsymfony.png)
