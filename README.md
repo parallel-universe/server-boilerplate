@@ -1,10 +1,6 @@
 # server-boilerplate
 
 ## Tech Stack
-![docker](https://docs.docker.com/dist/assets/images/logo.png)
-![composer](https://getcomposer.org/img/logo-composer-transparent5.png)
-![silex](https://bolt.cm/thumbs/606x400r/2014-12/featureimg_silexsymfony.png)
-
 Docker is used to keep the provisioning of environments rapid, most of the work is done in tutums [apache-php](https://hub.docker.com/r/tutum/apache-php/). The base image can easily be swapped out for a different, language specific option.
 
 ##### Setting up docker
@@ -31,3 +27,7 @@ Get the docker IP
 Now test the connection to the machine
 
     curl http://<dockerIP>:<port>
+
+![docker](https://docs.docker.com/dist/assets/images/logo.png)
+![composer](https://getcomposer.org/img/logo-composer-transparent5.png)
+![silex](https://bolt.cm/thumbs/606x400r/2014-12/featureimg_silexsymfony.png)
